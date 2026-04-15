@@ -319,7 +319,8 @@ body.dark-mode .form-textarea {
   box-shadow: 0 4px 12px rgba(99, 102, 241, 0.2);
 }
 
-.mood-btn.active {
+.mood-btn.active,
+.mood-btn.selected {
   background: var(--primary-color);
   color: var(--white);
   border-color: var(--primary-color);
@@ -331,7 +332,8 @@ body.dark-mode .mood-btn {
   color: var(--white);
 }
 
-body.dark-mode .mood-btn.active {
+body.dark-mode .mood-btn.active,
+body.dark-mode .mood-btn.selected {
   background: var(--primary-color);
   color: var(--white);
   border-color: var(--primary-color);
@@ -425,7 +427,8 @@ body.dark-mode .mood-btn.active {
   color: var(--primary-color);
 }
 
-.tag-btn.active {
+.tag-btn.active,
+.tag-btn.selected {
   background: var(--primary-color);
   color: var(--white);
   border-color: var(--primary-color);
@@ -437,7 +440,8 @@ body.dark-mode .tag-btn {
   color: var(--white);
 }
 
-body.dark-mode .tag-btn.active {
+body.dark-mode .tag-btn.active,
+body.dark-mode .tag-btn.selected {
   background: var(--primary-color);
 }
 
