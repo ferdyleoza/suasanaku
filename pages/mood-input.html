@@ -1,0 +1,45 @@
+
+   
+      <!DOCTYPE html>
+      <html lang="id">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Catat Suasana - SuasanaKu</title>
+        <link rel="stylesheet" href="../css/style.css" />
+      </head>
+      <body>
+        <div class="layout">
+          <nav class="sidebar">
+            <h2>SuasanaKu</h2>
+            <a href="../index.html">Beranda</a>
+            <a href="mood-input.html">Catat Suasana</a>
+            <a href="history.html">Riwayat</a>
+            <a href="stats.html">Statistik</a>
+            <a href="suggestions.html">Saran</a>
+          </nav>
+          <div class="content">
+            <header><h1>Catat Suasana Hati</h1></header>
+            <main>
+              <form id="moodForm">
+                <label for="mood">Bagaimana perasaanmu hari ini?</label>
+                <select id="mood" name="mood" required>
+                  <option value="">-- Pilih Suasana --</option>
+                  <option value="senang">😊 Senang</option>
+                  <option value="sedih">😢 Sedih</option>
+                  <option value="cemas">😟 Cemas</option>
+                  <option value="marah">😡 Marah</option>
+                  <option value="tenang">😌 Tenang</option>
+                </select>
+      
+                <label for="note">Catatan:</label>
+                <textarea id="note" rows="4" placeholder="Tulis alasan suasana hatimu..."></textarea>
+      
+                <button class="btn-primary" type="submit">Simpan</button>
+              </form>
+            </main>
+          </div>
+        </div>
+      </body>
+      </html>
+      
